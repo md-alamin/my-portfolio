@@ -220,10 +220,6 @@ main {
     font-size: 35px;
     color: #181818;
 }
-.form {
-    display: flex;
-    flex-direction: column;
-}
 
 input[type="text"],
 input[type="email"],
