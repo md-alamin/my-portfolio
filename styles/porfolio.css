@@ -10,10 +10,11 @@
 }
 
 .text-primary {
-    color: #fd6e0a;
+    color: #39ff14;
 }
 
 nav {
+    background: #fff8f3;
     display: flex;
     justify-content: space-between;
     padding: 51px 256px;
@@ -26,12 +27,16 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-left: 50px;
+    margin-left: 30px;
+}
+
+nav li:hover {
+    cursor: pointer;
 }
 
 .btn-primary {
     padding: 18px 35px;
-    background-color: #fd6e0a;
+    background-color: #39ff14;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -39,9 +44,13 @@ nav li {
     border: none;
 }
 
+.btn-primary:hover {
+    cursor: pointer;
+}
+
 .banner {
     display: flex;
-    margin: 0 200px;
+    padding: 0 200px;
     align-items: center;
 }
 
@@ -70,7 +79,7 @@ header {
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size: 35%, 5.5%;
+    background-size: 50%, 5.5%;
 }
 
 .alamin {
