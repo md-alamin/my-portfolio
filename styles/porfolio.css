@@ -108,7 +108,7 @@ main {
 .about-me {
     background: #fff8f3;
     border-radius: 10px;
-    padding: 130px 150px;
+    margin: 130px auto;
     text-align: center;
 }
 
@@ -144,14 +144,14 @@ main {
 }
 
 .all-task {
+    margin-top: 100px;
     text-align: center;
 }
 
 .tasks {
-    width: 65vw;
     background: #fff8f3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 130px auto;
     padding-top: 0;
 }
 
