@@ -9,6 +9,10 @@
     font-size: 45px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .text-primary {
     color: #39ff14;
 }
@@ -43,8 +47,19 @@ nav li:hover {
     border: none;
 }
 
-.btn-primary:hover {
+button:hover {
     cursor: pointer;
+}
+
+.btn-secondary {
+    padding: 18px 35px;
+    color: #39ff14;
+    background-color: white;
+    border-color: #39ff14;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .banner {
@@ -137,6 +152,7 @@ main {
     background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
+    padding-top: 0;
 }
 
 .task {
@@ -171,5 +187,61 @@ main {
     margin-top: 20px;
     font-weight: 400;
     font-size: 16px;
+    color: #757575;
+}
+
+.footer-container {
+    display: flex;
+    gap: 110px;
+    margin: 0 230px;
+    background: #fff8f3;
+}
+
+.connect h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.connect p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-top: 20px;
+}
+
+.connect img {
+    margin-right: 24px;
+    margin-top: 30px;
+}
+
+.form h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+input[type="text"],
+input[type="email"] {
+    width: 461px;
+    height: 64px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
     color: #757575;
 }
