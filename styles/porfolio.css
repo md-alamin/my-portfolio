@@ -129,6 +129,8 @@ main {
 .table-header {
     display: flex;
     justify-content: space-between;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .table-heading {
