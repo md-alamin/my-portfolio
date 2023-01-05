@@ -193,7 +193,7 @@ main {
 .footer-container {
     display: flex;
     gap: 110px;
-    margin: 0 auto;
+    margin: 130px auto;
     padding: 0 200px;
     background: #fff8f3;
 }
