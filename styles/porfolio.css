@@ -171,7 +171,7 @@ main {
 
 .works {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .work img {
@@ -181,6 +181,7 @@ main {
 
 .work {
     padding: 0 30px 30px 30px;
+    box-shadow: 1px 1px 14px -3px rgba(0, 0, 0, 0.75);
 }
 
 .work p {
@@ -192,7 +193,7 @@ main {
 
 .footer-container {
     display: flex;
-    gap: 110px;
+    gap: 90px;
     margin: 130px auto;
     padding: 0 200px;
     background: #fff8f3;
@@ -242,4 +243,8 @@ input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 textarea::placeholder {
     color: #757575;
+}
+
+input {
+    margin-right: 0;
 }
