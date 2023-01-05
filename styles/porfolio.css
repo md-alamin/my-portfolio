@@ -14,7 +14,6 @@
 }
 
 nav {
-    background: #fff8f3;
     display: flex;
     justify-content: space-between;
     padding: 51px 256px;
@@ -127,4 +126,50 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+.all-task {
+    text-align: center;
+}
+
+.tasks {
+    width: 65vw;
+    background: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.task {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.task-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.works {
+    display: flex;
+    gap: 10px;
+}
+
+.work img {
+    padding: 30px;
+    text-align: left;
+}
+
+.work {
+    padding: 0 30px 30px 30px;
+}
+
+.work p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
